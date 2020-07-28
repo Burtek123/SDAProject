@@ -21,6 +21,16 @@ public class Employee {
     private int telephoneNumber;
     private String position;
 
+    public Employee(Long id, String firstName, String lastName, String address, String PESEL, int telephoneNumber, String position) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
+        this.PESEL = PESEL;
+        this.telephoneNumber = telephoneNumber;
+        this.position = position;
+    }
+
     public Long getId() {
         return id;
     }
